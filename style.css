@@ -7,3 +7,11 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.frame {
+    width: 350px;
+    height: 420px;
+    background-color: #f0d0d1;
+    border: 20px solid #fff;
+    position: relative;
+}
