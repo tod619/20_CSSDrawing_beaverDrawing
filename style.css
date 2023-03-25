@@ -271,3 +271,24 @@ body {
     right: 5px;
     transform: rotate(20deg);
 }
+
+.ear-left,
+.ear-right {
+    position: absolute;
+    width: 38px;
+    height: 46px;
+    background-color: #f0a77e;
+    border: 8px solid #a35a37;
+    top: 15%;
+    border-radius: 50%;
+}
+
+.ear-left {
+    left: 18%;
+    transform: rotate(-45deg);
+}
+
+.ear-right {
+    right: 18%;
+    transform: rotate(45deg);
+}
