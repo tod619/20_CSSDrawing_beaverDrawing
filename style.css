@@ -103,3 +103,23 @@ body {
     transform: translateX(-50%);
     border-radius: 50%;
 }
+
+.eye-left,
+.eye-right {
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    border: 3px solid #3c2114;
+    border-top: none;
+    border-radius: 0 0 100px 100px;
+    top: 35%;
+    
+}
+
+.eye-left {
+    left: 32%;
+}
+
+.eye-right {   
+    right: 32%;
+}
