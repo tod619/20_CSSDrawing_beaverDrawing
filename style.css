@@ -123,3 +123,34 @@ body {
 .eye-right {   
     right: 32%;
 }
+
+.lashes {
+    position: absolute;
+    width: 2px;
+    height: 8px;
+    background-color: #3c2114;
+    bottom: -8px;
+    left: 48%;
+}
+
+.lashes::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #3c2114;
+    left: -10px;
+    top: -2px;
+    transform: rotate(20deg);
+}
+
+.lashes::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #3c2114;
+    right: -10px;
+    top: -2px;
+    transform: rotate(-20deg);
+}
