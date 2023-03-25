@@ -15,3 +15,14 @@ body {
     border: 20px solid #fff;
     position: relative;
 }
+
+.body {
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    background-color: #a35a37;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50% 50% 0 0;
+}
